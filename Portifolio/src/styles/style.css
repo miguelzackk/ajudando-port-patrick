@@ -1,0 +1,63 @@
+@import url('/src/styles/global.css');
+
+h1 {
+    color: var(--color-black);
+}
+
+
+body{
+    background-color: #090E16;
+    color: azure;
+    padding: 38px 140px;
+}
+
+header {
+width: 100%;
+height: 64px;
+display: flex;
+justify-content: space-between;
+align-items: center;
+border: 1px solid transparent;
+border-radius: 10px;
+background-color: #7B4AE2;
+background-color: rgba( 255, 255, 255, 0.05);
+
+}
+
+header a {
+color: #ffffff;
+padding: 16px;
+
+}
+
+main {
+
+    display: flex ;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+
+main p {
+    font-size: 20px;
+}
+
+main h1 {
+font-size: 52px;
+color:#ffffff
+
+}
+
+.avatar img {
+    width: 555.95px;
+    height: 600px;
+}
+
+.botton-content {
+
+    display: flex;
+    flex-direction: column;
+    align-items: end;
+    color:#7B4AE2;
+    
+}
